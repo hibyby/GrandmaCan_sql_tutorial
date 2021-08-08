@@ -49,8 +49,6 @@ CREATE TABLE `works_with`(
 );
 
 
-INSERT INTO `employee` VALUES(206, '小黃', '1998-10-08', 'F', 50000, 1, NULL);
-
 
 INSERT INTO `branch` VALUES(1, '研發', NULL);
 INSERT INTO `branch` VALUES(2, '行政', NULL);
@@ -84,8 +82,8 @@ INSERT INTO `client` VALUES(403, '露西', '54354365');
 INSERT INTO `client` VALUES(404, '艾瑞克', '18783783');
 
 
-INSERT INTO `works_with` VALUES(206, 400, '70000');
-INSERT INTO `works_with` VALUES(207, 401, '24000');
-INSERT INTO `works_with` VALUES(208, 402, '9800');
-INSERT INTO `works_with` VALUES(208, 403, '24000');
-INSERT INTO `works_with` VALUES(210, 404, '87940');
+INSERT INTO `works_with` VALUES(206, 400, 70000);
+INSERT INTO `works_with` VALUES(207, 401, 24000);
+INSERT INTO `works_with` VALUES(208, 402, 9800);
+INSERT INTO `works_with` VALUES(208, 403, 24000);
+INSERT INTO `works_with` VALUES(210, 404, 87940);
