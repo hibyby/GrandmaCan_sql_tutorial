@@ -64,15 +64,15 @@ INSERT INTO `employee` VALUES(210, '小蘭', '1925-11-10', 'F', 84000, 1, 207);
 
 UPDATE `branch`
 SET `manager_id` = 206
-WHERE `branch_id` = 1
+WHERE `branch_id` = 1;
 
 UPDATE `branch`
 SET `manager_id` = 207
-WHERE `branch_id` = 2
+WHERE `branch_id` = 2;
 
 UPDATE `branch`
 SET `manager_id` = 208
-WHERE `branch_id` = 3
+WHERE `branch_id` = 3;
 
 
 INSERT INTO `client` VALUES(400, '阿狗', '254354335');
